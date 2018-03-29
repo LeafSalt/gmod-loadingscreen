@@ -18,7 +18,7 @@ $pictures = array(1,2,3);
 shuffle($pictures);
 
 if (isset($_GET['mapname']))
-    $map = '<br>You will play the map: '.$_GET['mapname'];
+    $map = '<br>You are playing on the map: '.$_GET['mapname'];
 
 if (isset($_GET['steamid'])) {
     $data = 'http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&steamids='.$_GET['steamid'];
@@ -60,16 +60,16 @@ if (isset($_GET['steamid'])) {
             </div>
             <h1 id="title" class="bigEntrance" style="font-size: 50px;">Cheesy Hans Gaming</h1>
             <p class="lead">
-                Welcome to our TTT-Server. Have fun!<br>
+                Welcome to our DarkRP server. Have fun!<br>
                 <small>
                     <ul style="line-height: 1.6;">
                         <li>Be friendly.</li>
-                        <li>No random killing - low karma autoban enabled.</li>
-                        <li>No Ghosting!</li>
-                        <li>Only English or German.</li>
-                        <li>Admins are kicking/baning if something is wrong.</li>
+                        <li>No Random Deathmatch(RDM)</li>
+                        <li>Dont</li>
+                        <li>Only English.</li>
+                        <li>We have Friendly Admins</li>
                     </ul>
-                    All used Workshop items can be found here:
+                    All used Workshop items can be found here(Currently working on workshop items):
                     <br>
                     <code>www.steamcommunity.com/id/<b>xunocore</b></code><br>→ TTT-Servercontent DL (Link)
                 </small>
